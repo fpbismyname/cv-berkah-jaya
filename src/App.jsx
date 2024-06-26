@@ -7,7 +7,7 @@ import Whatsapp from "./components/Whatsapp";
 const App = () => {
   return (
     <>
-      <div className="flex flex-col min-h-[100vh] bg-gray-200 p-8 gap-12">
+      <div className="flex flex-col min-h-[100vh] bg-gray-200 gap-12">
         <Navbar />
         <Whatsapp/>
         <Content />
