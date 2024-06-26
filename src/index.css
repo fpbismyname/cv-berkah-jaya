@@ -6,4 +6,5 @@
 
 :root{
     font-family: Rubik;
+    @apply scroll-smooth
 }
