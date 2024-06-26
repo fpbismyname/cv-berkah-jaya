@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Icon from "/berkah-jaya.png";
+import { useState } from "react";
 
 const links = [
   {
@@ -16,6 +17,10 @@ const links = [
     href: "#service",
   },
   {
+    text: "Testimoni",
+    href: "#testimonial",
+  },
+  {
     text: "Kontak",
     href: "#contact",
   },
@@ -23,6 +28,7 @@ const links = [
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
+
   return (
     <div className="sticky top-0 z-10 p-10">
       <nav className="flex flex-row justify-between px-8 py-6 h-max shadow-xl bg-white rounded-lg border-b-orange-400 border-b-4">

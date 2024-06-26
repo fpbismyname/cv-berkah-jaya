@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Icon from "/berkah-jaya.png";
 
 const footer = () => {
@@ -41,7 +41,7 @@ const footer = () => {
                 <a className="hover:underline" href="#contact"><i className="bi bi-caret-right-fill animate-pulse mr-3"></i>Kontak</a>
               </ul>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4" id="contact">
               <h1 className="text-xl font-bold">Hubungi Kami</h1>
               <ul className="flex flex-col gap-2">
                 <a className="hover:underline" href="https://wa.me/+6281572497182">
