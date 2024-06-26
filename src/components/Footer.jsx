@@ -45,19 +45,19 @@ const footer = () => {
               <h1 className="text-xl font-bold">Hubungi Kami</h1>
               <ul className="flex flex-col gap-2">
                 <a className="hover:underline" href="https://wa.me/+6281572497182">
-                  <i className="bi bi-whatsapp mr-3"></i>Whatsapp
+                <i className="bi bi-caret-right-fill animate-pulse mr-3"></i><i className="bi bi-whatsapp mr-3"></i>Whatsapp
                 </a>
                 <a className="hover:underline" href="https://instagram.com">
-                  <i className="bi bi-instagram mr-3"></i>Instagram
+                <i className="bi bi-caret-right-fill animate-pulse mr-3"></i><i className="bi bi-instagram mr-3"></i>Instagram
                 </a>
                 <a className="hover:underline" href="mailto:cv.berkah.jaya.2024@gmail.com">
-                  <i className="bi bi-envelope mr-3"></i>Email
+                <i className="bi bi-caret-right-fill animate-pulse mr-3"></i><i className="bi bi-envelope mr-3"></i>Email
                 </a>
                 <a className="hover:underline" href="tel:+6281572497182">
-                  <i className="bi bi-telephone mr-3"></i>Telepon
+                <i className="bi bi-caret-right-fill animate-pulse mr-3"></i><i className="bi bi-telephone mr-3"></i>Telepon
                 </a>
                 <a className="hover:underline" href="">
-                  <i className="bi bi-geo-alt mr-3"></i>Lokasi Saya
+                <i className="bi bi-caret-right-fill animate-pulse mr-3"></i><i className="bi bi-geo-alt mr-3"></i>Lokasi Saya
                 </a>
               </ul>
             </div>
