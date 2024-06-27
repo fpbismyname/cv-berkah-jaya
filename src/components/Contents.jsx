@@ -3,7 +3,7 @@ import Icon from "/berkah-jaya.png";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Navbar from "./Navbar";
 
-const content = (props) => {
+const content = () => {
   return (
     <>
       <Navbar />
@@ -142,9 +142,7 @@ const content = (props) => {
           </div>
         </div>
         {/* Keunggulan kami */}
-        <div
-          className="flex flex-col p-12 rounded-md tablet:p-28 mobile:p-10 justify-center gap-12"
-        >
+        <div className="flex flex-col p-12 rounded-md tablet:p-28 mobile:p-10 justify-center gap-12">
           <div className="flex flex-col justify-center gap-3">
             <div className="flex flex-row justify-center">
               <h1 className="text-center text-3xl font-bold">
@@ -186,12 +184,12 @@ const content = (props) => {
               <div className="flex bg-white p-5 rounded-md flex-col justify-center gap-4 tablet:w-full mobile:w-full text-center shadow-md">
                 <i className="bi bi-shield-fill-check text-7xl text-orange-500 drop-shadow-[0px_0px_5px_#f97316]"></i>
                 <h1 className="text-xl tablet:text-3xl tablet:text-center mobile:text-2xl mobile:text-center p-3">
-                  <span className="text-orange-500 font-bold">Amanah</span>
+                  <span className="text-orange-500 font-bold">Terpercaya</span>
                 </h1>
                 <p className="text-md tablet:text-md mobile:text-sm">
-                  Di CV Berkah Jaya, kami menempatkan nilai amanah sebagai
-                  prioritas utama. Kami memahami bahwa kepercayaan adalah
-                  fondasi dari setiap hubungan bisnis yang sukses.
+                  Kepercayaan adalah pilar utama yang kami bangun dalam setiap
+                  proyek. Kami memberikan jaminan atas setiap pekerjaan yang
+                  kami lakukan, memberikan rasa aman dan kepuasan kepada klien.
                 </p>
               </div>
             </div>
