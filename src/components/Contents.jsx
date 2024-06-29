@@ -10,7 +10,7 @@ const content = () => {
       <div className="flex flex-col p-24 desktop:p-8 mobile:p-0 tablet:p-0 gap-24 mobile:gap-8 tablet:gap-8">
         {/* Welcome Contenr */}
         <div
-          className="flex flex-col p-0 rounded-md tablet:p-28 mobile:p-10 justify-center"
+          className="flex flex-col p-28 rounded-md tablet:p-28 mobile:p-10 mobile:py-24 justify-center"
           id="home"
         >
           <div className="flex flex-row justify-center gap-12 tablet:flex-col-reverse mobile:flex-col-reverse tablet:gap-8 mobile:gap-4">
@@ -38,7 +38,7 @@ const content = () => {
         </div>
         {/* Tentang kami */}
         <div
-          className="flex flex-col p-12 rounded-md tablet:p-28 mobile:p-10 justify-center gap-12"
+          className="flex flex-col p-28 rounded-md tablet:p-28 mobile:p-10 mobile:py-24 justify-center gap-12"
           id="about"
         >
           <div className="flex flex-col justify-center gap-3">
@@ -78,7 +78,7 @@ const content = () => {
         </div>
         {/* Layanan kami */}
         <div
-          className="flex flex-col p-12 rounded-md tablet:p-28 mobile:p-10 justify-center gap-12"
+          className="flex flex-col p-28 rounded-md tablet:p-28 mobile:p-10 mobile:py-24 justify-center gap-12"
           id="service"
         >
           <div className="flex flex-col justify-center gap-3">
@@ -142,7 +142,7 @@ const content = () => {
           </div>
         </div>
         {/* Keunggulan kami */}
-        <div className="flex flex-col p-12 rounded-md tablet:p-28 mobile:p-10 justify-center gap-12">
+        <div className="flex flex-col p-28 rounded-md tablet:p-28 mobile:p-10 mobile:py-24 justify-center gap-12">
           <div className="flex flex-col justify-center gap-3">
             <div className="flex flex-row justify-center">
               <h1 className="text-center text-3xl font-bold">
@@ -197,7 +197,7 @@ const content = () => {
         </div>
         {/* Testimoni */}
         <div
-          className="flex flex-col p-12 rounded-md tablet:p-28 mobile:p-10 justify-center gap-12"
+          className="flex flex-col p-28 rounded-md tablet:p-28 mobile:p-10 mobile:py-24 justify-center gap-12"
           id="testimonial"
         >
           <div className="flex flex-col justify-center gap-3">

@@ -30,7 +30,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <div className="sticky top-0 z-10 p-10">
+    <div className="sticky top-0 z-10 p-2 mb-10">
       <nav className="flex flex-row justify-between px-8 py-6 h-max shadow-xl bg-white rounded-lg border-b-orange-400 border-b-4">
         <div className="flex flex-row hover:drop-shadow-[0px_0px_5px_gray] transition cursor-pointer">
           <img
@@ -42,7 +42,7 @@ const Navbar = () => {
           </h1>
         </div>
         {/* desktop */}
-        <div className="flex mobile:hidden tablet:hidden">
+        <div className="flex mobile:hidden tablet:hidden items-center">
           {links.map((link, index) => {
             return (
               <a
@@ -56,7 +56,7 @@ const Navbar = () => {
           })}
         </div>
         {/* mobile */}
-        <div className="hidden mobile:flex tablet:flex mobile:text-sm tablet:text-sm flex-col">
+        <div className="hidden mobile:flex tablet:flex mobile:text-sm tablet:text-sm flex-col items-center justify-center">
           <div className="flex flex-row">
             <a
               data-dropdown-toogle="dropdown"
